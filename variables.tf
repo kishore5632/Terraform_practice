@@ -4,9 +4,9 @@ variable "instance_type" {
 }
 
 variable "ami_id" {
-  default = "ami-0c02fb55956c7d316" # Replace with your region-specific AMI ID
+  default = "ami-053b12d3152c0cc71" # Replace with your region-specific AMI ID
 }
 
 variable "bucket_name" {
-  default = "my-unique-s3-bucket-12345" # Replace with a unique bucket name
+  default = "my-unique-s3-bucket-1234567" # Replace with a unique bucket name
 }

@@ -11,5 +11,5 @@ terraform {
 }
 
 provider "aws" {
-  region = "us-east-1" # Change as per your requirement
+  region = "ap-south-1" # Change as per your requirement
 }
