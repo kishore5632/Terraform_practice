@@ -1,3 +1,15 @@
+structure:
+
+/modules
+  /ec2
+    main.tf
+    variables.tf
+    outputs.tf
+main.tf (root)
+variables.tf (root)
+outputs.tf (root)
+
+
 export AWS_ACCESS_KEY_ID="your-access-key"
 export AWS_SECRET_ACCESS_KEY="your-secret-key"
 
@@ -13,3 +25,5 @@ terraform init
 terraform workspace new dev
 terraform plan
 terraform apply
+
+
