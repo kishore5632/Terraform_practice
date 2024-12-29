@@ -8,6 +8,8 @@ aws_secret_access_key = your-secret-key
 
 
 export AWS_REGION="ap-south-1"
+
 terraform init
+terraform workspace new dev
 terraform plan
 terraform apply
